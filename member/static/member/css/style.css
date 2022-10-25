@@ -1,0 +1,9 @@
+body{
+    background-color: darkgrey;
+    margin: 10px;
+}
+
+#Total-member{
+    background-color: lightblue;
+    color: white;
+}

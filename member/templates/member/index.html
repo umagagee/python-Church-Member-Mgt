@@ -1,0 +1,75 @@
+{% extends 'member/main.html'%}
+
+
+{% block content %}
+{%  include 'member/status.html' %}
+
+
+<hr>
+
+<div class="row">
+    <div class="col-md">
+        <div class="card card-body text-center">
+          <a class="btn btn-primary btn-block btn-sm" href="{% url 'addmember' %}">CREATE MEMBER</a>
+
+            <table  class="table table-sm">
+                <tr>
+                    <th>view</th>
+                    <th>FirstName</th>
+                    <th>lastName</th>
+                    <th>Phone Number</th>
+                    <th>Update</th>
+                    <th>Delete</th>
+                </tr>
+                {% for m in member %}
+                <tr>
+                    <td><a href="{% url 'mem' m.id %}" class="btn btn-primary btn-sm">view</a></td>
+                    <td>{{m.first_name}}</td>
+                    <td>{{m.last_name}}</td>
+                    <td>{{m.phone_number}}</td>
+                    <td><a href="{% url 'updatemember' m.id %}" class="btn btn-warning btn-sm">Update</a></td>
+                    <td><a href="{% url 'deletemember' m.id %}" class="btn btn-danger btn-sm">Delete</a></td>
+
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </div>
+    <div class="col-md">
+        <div class="card card-body text-center">
+            <a class="btn btn-primary btn-block btn-sm" href="{% url 'payment' %}">ADD PAYMENT</a>
+            <table id="myTable" class="table table-striped table-sm">
+                <tr>
+                    <th></th>
+                    <th>Name</th>
+                    <th>Amount</th>
+                    <th>Date Paid</th>
+                    <th>Date Added</th>
+                    <th>Update</th>
+                    <th>Delete</th>
+                </tr>
+                {% for p in payment %}
+                <tr>
+                    <td></td>
+                    <td>{{p.member.last_name}}</td>
+                    <td>{{p.amount}}</td>
+                    <td>{{p.date_paid}}</td>
+                    <td>{{p.date_added}}</td>
+                    <td><a href="{% url 'updatePayment' p.id %}" class="btn btn-warning btn-sm">Update</a></td>
+                    <td><a href="{% url 'deletePayment' p.id %}" class="btn btn-danger btn-sm">Delete</a></td>
+
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </div>
+    
+</div>
+
+
+{% endblock %}
+<script>
+    $(document).ready(function(){
+        $('#myTable').dataTable();
+    });
+    </script>

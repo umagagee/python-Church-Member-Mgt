@@ -1,0 +1,716 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "ModelForm",
+        "importPath": "django.forms",
+        "description": "django.forms",
+        "isExtraImport": true,
+        "detail": "django.forms",
+        "documentation": {}
+    },
+    {
+        "label": "widgets",
+        "importPath": "django.forms",
+        "description": "django.forms",
+        "isExtraImport": true,
+        "detail": "django.forms",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "io",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "io",
+        "description": "io",
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "FileResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "FileResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "canvas",
+        "importPath": "reportlab.pdfgen",
+        "description": "reportlab.pdfgen",
+        "isExtraImport": true,
+        "detail": "reportlab.pdfgen",
+        "documentation": {}
+    },
+    {
+        "label": "canvas",
+        "importPath": "reportlab.pdfgen",
+        "description": "reportlab.pdfgen",
+        "isExtraImport": true,
+        "detail": "reportlab.pdfgen",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "church.asgi",
+        "description": "church.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "church.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "church.settings",
+        "description": "church.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-1v8&q@6fx$w@wmo)(dh46*-!yv+4r%zi!-dpce$6h)i)0c=q(z'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "church.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "church.settings",
+        "description": "church.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-1v8&q@6fx$w@wmo)(dh46*-!yv+4r%zi!-dpce$6h)i)0c=q(z'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'member',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
+        "detail": "church.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "church.settings",
+        "description": "church.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'member',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "detail": "church.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "church.settings",
+        "description": "church.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'member',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "church.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "church.settings",
+        "description": "church.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'member',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n]\nMIDDLEWARE = [",
+        "detail": "church.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "church.settings",
+        "description": "church.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'church.urls'",
+        "detail": "church.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "church.settings",
+        "description": "church.settings",
+        "peekOfCode": "ROOT_URLCONF = 'church.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "church.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "church.settings",
+        "description": "church.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "church.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "church.settings",
+        "description": "church.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'church.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.0/ref/settings/#databases\npassword=\"\"\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.mysql',\n        'NAME': 'church',\n        'HOST':'127.0.0.1',\n        'PORT':'3306',",
+        "detail": "church.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "church.settings",
+        "description": "church.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.mysql',\n        'NAME': 'church',\n        'HOST':'127.0.0.1',\n        'PORT':'3306',\n        'USER':'root',\n        'PASSWORD':''\n    }\n}",
+        "detail": "church.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "church.settings",
+        "description": "church.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "church.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "church.settings",
+        "description": "church.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "church.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "church.settings",
+        "description": "church.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "church.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "church.settings",
+        "description": "church.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "church.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "church.settings",
+        "description": "church.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "church.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "church.settings",
+        "description": "church.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "church.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "church.settings",
+        "description": "church.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "church.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "church.urls",
+        "description": "church.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('member/', include(\"member.urls\")),\n    path('', include(\"member.urls\"))\n]",
+        "detail": "church.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "church.wsgi",
+        "description": "church.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "church.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "member.migrations.0001_initial",
+        "description": "member.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Member',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('first_name', models.CharField(max_length=100, null=True)),",
+        "detail": "member.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "member.migrations.0002_member_date_join",
+        "description": "member.migrations.0002_member_date_join",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('member', '0001_initial'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='member',\n            name='date_join',\n            field=models.CharField(max_length=100, null=True),\n        ),",
+        "detail": "member.migrations.0002_member_date_join",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "member.migrations.0003_alter_member_date_join",
+        "description": "member.migrations.0003_alter_member_date_join",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('member', '0002_member_date_join'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='member',\n            name='date_join',\n            field=models.DateField(null=True),\n        ),",
+        "detail": "member.migrations.0003_alter_member_date_join",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "member.migrations.0004_alter_payment_member",
+        "description": "member.migrations.0004_alter_payment_member",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('member', '0003_alter_member_date_join'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='payment',\n            name='member',\n            field=models.ForeignKey(null=True, on_delete=django.db.models.deletion.CASCADE, to='member.member'),\n        ),",
+        "detail": "member.migrations.0004_alter_payment_member",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "member.migrations.0005_member_age",
+        "description": "member.migrations.0005_member_age",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('member', '0004_alter_payment_member'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='member',\n            name='age',\n            field=models.IntegerField(null=True),\n        ),",
+        "detail": "member.migrations.0005_member_age",
+        "documentation": {}
+    },
+    {
+        "label": "MemberConfig",
+        "kind": 6,
+        "importPath": "member.apps",
+        "description": "member.apps",
+        "peekOfCode": "class MemberConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'member'",
+        "detail": "member.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Age",
+        "kind": 6,
+        "importPath": "member.Birthdate",
+        "description": "member.Birthdate",
+        "peekOfCode": "class Age():\n    birth_date=[]\n    count_age = 0\n    def under_age(self,birth_date=[]):\n        below_18=[]\n        for dates in birth_date:\n            today = date.today()\n            age = today.year - dates.year-((today.month, today.day)<(dates.month, dates.day))\n            if age < 18:\n                below_18.append(age)",
+        "detail": "member.Birthdate",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "member.Birthdate",
+        "description": "member.Birthdate",
+        "peekOfCode": "age = Age()\nprint(age.under_age([date(2010,2,16)]))",
+        "detail": "member.Birthdate",
+        "documentation": {}
+    },
+    {
+        "label": "memberForm",
+        "kind": 6,
+        "importPath": "member.forms",
+        "description": "member.forms",
+        "peekOfCode": "class memberForm(forms.ModelForm):\n    class Meta:\n        model  = Member \n        fields ='__all__'\n        gender=(('male','male'),('female','female'),('other','other'))\n        level = (('Professor','Professor'),\n    ('Masters','Masters'),('Degree','Degree'),\n    ('High School','High School'),('Others','Others'))\n        widgets = {\n            'first_name':forms.TextInput(attrs={'class':'form-control','placeholder':'Enter firstname'}),",
+        "detail": "member.forms",
+        "documentation": {}
+    },
+    {
+        "label": "paymentForm",
+        "kind": 6,
+        "importPath": "member.forms",
+        "description": "member.forms",
+        "peekOfCode": "class paymentForm(ModelForm):\n    class Meta:\n        model  = Payment\n        fields = '__all__'\n        catergory = (('Tithe','Tithe'),('Contribution','Contribution'),\n    ('Collection','Collection'),('Dues','Dues'),\n    ('Others','Others'))\n        method = (('Cash','Cash'),('Cheque','Cheque'),\n        ('Card','Card'),('Mobile Money','Mobile Money'),\n        ('Others','Others'))",
+        "detail": "member.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Member",
+        "kind": 6,
+        "importPath": "member.models",
+        "description": "member.models",
+        "peekOfCode": "class Member(models.Model):\n    gender=(('male','male'),('female','female'),('other','other'))\n    level = (('Professor','Professor'),\n    ('Masters','Masters'),('Degree','Degree'),\n    ('High School','High School'),('Others','Others'))\n    first_name = models.CharField(max_length=100, null=True)\n    last_name = models.CharField(max_length=100, null=True)\n    email = models.EmailField(max_length=100, null=True)\n    phone_number = models.CharField(max_length=100, null=True)\n    sex = models.CharField(max_length=100, null=True,choices=gender)",
+        "detail": "member.models",
+        "documentation": {}
+    },
+    {
+        "label": "Payment",
+        "kind": 6,
+        "importPath": "member.models",
+        "description": "member.models",
+        "peekOfCode": "class Payment(models.Model):\n    catergory = (('Tithe','Tithe'),('Contribution','Contribution'),\n    ('Collection','Collection'),('Dues','Dues'),\n    ('Others','Others'))\n    method = (('Cash','Cash'),('Cheque','Cheque'),\n    ('Card','Card'),('Mobile Money','Mobile Money'),\n    ('Others','Others'))\n    member = models.ForeignKey(Member, null=True, on_delete=models.CASCADE)\n    amount = models.FloatField(null=True)\n    payment_cart = models.CharField(max_length=100, null=True, choices=catergory)",
+        "detail": "member.models",
+        "documentation": {}
+    },
+    {
+        "label": "showPrint",
+        "kind": 2,
+        "importPath": "member.print-file",
+        "description": "member.print-file",
+        "peekOfCode": "def showPrint(request):\n    buffer = io.BytesIO()\n    p.canvas.Canvas(buffer)\n    p.drawString(100,100,\"Hello World\")\n    p.showPage()\n    p.save()\n    buffer.seek(0)\n    return FileResponse(buffer,as_attachment=True, filename=\"hello.pdf\")",
+        "detail": "member.print-file",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "member.try",
+        "description": "member.try",
+        "peekOfCode": "num = [10,10,3,4,1]\nsum=0.0\nfor n in num:\n    sum+=n\nprint(sum)",
+        "detail": "member.try",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "member.urls",
+        "description": "member.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"\",views.index, name=\"index\"),\n    path(\"member/<str:pk>\",views.member, name=\"mem\"),\n    path(\"createMember/\",views.createMember, name=\"addmember\"),\n    path(\"updateMember/<str:pk>\",views.updateMember, name=\"updatemember\"),\n    path(\"deleteMember/<str:pk>\",views.deleteMember, name=\"deletemember\"),\n    path(\"payment/\",views.payment, name=\"payment\"),\n    path(\"deletePayment/<str:pk>\",views.deletePayment, name=\"deletePayment\"),\n    path(\"updatePayment/<str:pk>\",views.updatePayment, name=\"updatePayment\"),\n    path(\"tyr/\",views.tyr, name=\"tyr\")",
+        "detail": "member.urls",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "member.views",
+        "description": "member.views",
+        "peekOfCode": "def index(request):\n    member = Member.objects.all()\n    payment = Payment.objects.all()\n    total_member = Member.objects.all().count()\n    total_male = Member.objects.filter(sex=\"male\").count()\n    total_female = Member.objects.filter(sex=\"female\").count()\n    content = {\n        \"member\":member,\n        \"payment\":payment,\n        \"total_member\":total_member,",
+        "detail": "member.views",
+        "documentation": {}
+    },
+    {
+        "label": "member",
+        "kind": 2,
+        "importPath": "member.views",
+        "description": "member.views",
+        "peekOfCode": "def member(request,pk):\n    amt=0.0\n    member=Member.objects.get(id=pk)\n    payment = Payment.objects.filter(member_id=pk)\n    for paid in payment:\n        amt += paid.amount\n    content = {\n        \"amt\":amt,\n        \"payment\":payment,\n        \"member\":member",
+        "detail": "member.views",
+        "documentation": {}
+    },
+    {
+        "label": "payment",
+        "kind": 2,
+        "importPath": "member.views",
+        "description": "member.views",
+        "peekOfCode": "def payment(request):\n    form = paymentForm()\n    if request.method=='POST':\n        form = paymentForm(request.POST)\n        if form.is_valid():\n            form.save()\n            return redirect('/')\n    content = {\n        \"form\":form\n    }",
+        "detail": "member.views",
+        "documentation": {}
+    },
+    {
+        "label": "createMember",
+        "kind": 2,
+        "importPath": "member.views",
+        "description": "member.views",
+        "peekOfCode": "def createMember(request):\n    form = memberForm()\n    if request.method=='POST':\n        form = memberForm(request.POST)\n        if form.is_valid():\n            form.save()\n            return redirect('/')\n    content = {\n        \"form\":form\n    }",
+        "detail": "member.views",
+        "documentation": {}
+    },
+    {
+        "label": "updateMember",
+        "kind": 2,
+        "importPath": "member.views",
+        "description": "member.views",
+        "peekOfCode": "def updateMember(request,pk):\n    member = Member.objects.get(id=pk)\n    form = memberForm(instance = member)\n    if request.method =='POST':\n        form = memberForm(request.POST, instance = member)\n        if form.is_valid():\n            form.save()\n            return redirect('/')\n    content = {\n        \"form\":form",
+        "detail": "member.views",
+        "documentation": {}
+    },
+    {
+        "label": "deleteMember",
+        "kind": 2,
+        "importPath": "member.views",
+        "description": "member.views",
+        "peekOfCode": "def deleteMember(request,pk):\n    delete_member = Member.objects.get(id=pk)\n    fullname = delete_member.first_name+\" \"+delete_member.last_name\n    member_id = delete_member.id\n    if request.method == 'POST':\n        delete_member.delete()\n        return redirect('/')\n    content ={\n        \"fullname\":fullname,\n        \"member_id\":member_id",
+        "detail": "member.views",
+        "documentation": {}
+    },
+    {
+        "label": "updatePayment",
+        "kind": 2,
+        "importPath": "member.views",
+        "description": "member.views",
+        "peekOfCode": "def updatePayment(request,pk):\n    update_payment = Payment.objects.get(id=pk)\n    form = paymentForm(instance = update_payment)\n    if request.method =='POST':\n        form = paymentForm(request.POST,instance = update_payment)\n        if form.is_valid():\n            form.save()\n            return redirect('/')\n    content = {\n            \"form\":form",
+        "detail": "member.views",
+        "documentation": {}
+    },
+    {
+        "label": "deletePayment",
+        "kind": 2,
+        "importPath": "member.views",
+        "description": "member.views",
+        "peekOfCode": "def deletePayment(request,pk):\n    delete_payment = Payment.objects.get(id=pk)\n    payment_id = delete_payment.id\n    if request.method=='POST':\n        delete_payment.delete()\n        return redirect('/')\n    content={\n        \"payment_id\":payment_id\n    }\n    return render(request,\"member/delete-payment.html\",content)",
+        "detail": "member.views",
+        "documentation": {}
+    },
+    {
+        "label": "tyr",
+        "kind": 2,
+        "importPath": "member.views",
+        "description": "member.views",
+        "peekOfCode": "def tyr(request):\n    member = Member.objects.all()\n    for m in member:\n        m = m.birth_date\n        num = over.over_age(m)\n    content = {\n        \"member\":member,\n        \"num\":num\n    }\n    return render(request,\"member/tyr.html\",content)",
+        "detail": "member.views",
+        "documentation": {}
+    },
+    {
+        "label": "over",
+        "kind": 5,
+        "importPath": "member.views",
+        "description": "member.views",
+        "peekOfCode": "over = Age()\ndef index(request):\n    member = Member.objects.all()\n    payment = Payment.objects.all()\n    total_member = Member.objects.all().count()\n    total_male = Member.objects.filter(sex=\"male\").count()\n    total_female = Member.objects.filter(sex=\"female\").count()\n    content = {\n        \"member\":member,\n        \"payment\":payment,",
+        "detail": "member.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'church.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]

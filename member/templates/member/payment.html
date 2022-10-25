@@ -1,0 +1,16 @@
+{% extends 'member/main.html' %}
+
+{% block content %}
+
+<div class="card card-body text-center">
+    <div class="card-header">
+        <h1 class="card-title">Payment</h1>
+    </div>
+    <form action="" method="POST">
+        {% csrf_token %}
+        {{form}}
+        <button type="submit" class="form-control btn btn-primary">Submit</button>
+    </form>
+</div>
+
+{% endblock %}

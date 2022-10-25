@@ -1,0 +1,21 @@
+{% extends 'member/main.html' %}
+
+
+{% block content %}
+<div class="row">
+  <div class="col-md">
+    <div class="card card-body">
+      <p class="alert alert-danger">Are you sure you want to delete the {{fullname}}</p>
+      <form action="{% url 'deletemember' member_id %}" method="post">
+        {% csrf_token %}
+      
+        <a href="{% url 'index' %}" class="btn btn-warning">Cancel</a>
+        <input type="submit"  name="Confirm" class="btn btn-danger">
+      </form>      
+
+    </div>
+  </div>
+</div>
+
+
+{% endblock %}

@@ -1,0 +1,83 @@
+{% extends 'member/main.html' %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-4">
+        <div class="card  text-center">
+            <div class="card-header">
+                <h3 class="card-title">Date Join</h3>
+            </div>
+            <div class="card-body" id="Total-member">
+
+                <h1>{{member.date_join}}</h1>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-8">
+        <div class="card  text-center">
+            <div class="card-header">
+                <h3 class="card-title">Amount Contributed</h3>
+            </div>
+            <div class="card-body" id="Total-member">
+                <h1>GHS{{amt}}</h1>
+            </div>
+        </div>
+    </div>
+
+</div><br>
+<div class="row">
+    <div class="col-md">
+        <div class="card card-body">
+            <h3>Personal Details</h3>
+            <hr>
+            <p>Full Name: {{member.first_name}} {{member.last_name}}</p>
+            <p>Email: {{member.email}}</p>
+            <p>Phone Number: {{member.phone_number}}</p>
+            <p>Gender: {{member.sex}}</p>
+            <p>Birth Date: {{member.birth_date}}</p>
+            <p>Occupation: {{member.Occupation}}</p>
+            <p>Education: {{member.education}}</p>
+            <p>Address: {{member.Address}}</p>
+            <p>Date Added: {{member.date_created}}</p>
+        </div>
+        
+    </div>
+    <div class="col-md">
+        <div class="card card-body">
+            <h3>Payment Details</h3>
+            <hr>
+            <table class="table table-sm">
+                <tr>
+                    <th></th>
+                    <th>Name</th>
+                    <th>Amount</th>
+                    <th>Type</th>
+                    <th>Mode</th>
+                    <th>Date Paid</th>
+                    <th>Date Added</th>
+                    <th>Update</th>
+                    <th>Delete</th>
+                </tr>
+                {% for p in payment %}
+                <tr>
+                    <td></td>
+                    <td>{{p.member.last_name}}</td>
+                    <td>{{p.amount}}</td>
+                    <td>{{p.payment_cart}}</td>
+                    <td>{{p.payment_method}}</td>
+                    <td>{{p.date_paid}}</td>
+                    <td>{{p.date_added}}</td>
+                    <td><a href="#" class="btn btn-warning btn-sm">Update</a></td>
+                    <td><a href="#" class="btn btn-danger btn-sm">Delete</a></td>
+
+                </tr>
+                {% endfor %}
+            </table>
+
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock %}

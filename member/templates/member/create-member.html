@@ -1,0 +1,26 @@
+{% extends 'member/main.html' %}
+
+
+{% block content %}
+<div class="card card-body text-center">
+    <div class="card-header">
+        <h3 class="card-title">Member Details</h3>
+    </div>
+    <form action="" method="post">
+        {% csrf_token %}
+        {{form.as_p}}
+        <div class="row">
+            <div class="col-md">
+                <button type="submit" class="form-control btn btn-primary">Submit</button>
+
+            </div>
+            <div class="col-md">
+                <a href="{% url 'index' %}" class="form-control btn btn-warning">Cancel</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+
+{% endblock %}
